@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+
+.buttons {
+    margin: 20px;
+
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn {
+    color: #fff;
+    background-size: 200%;
+    text-transform: uppercase;
+    border: none;
+    padding: 24px;
+    width: 220px;
+    font-family: "montserrat"sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    background-position: 0%;
+}
+
+.btn1 {
+    background-image: linear-gradient(to left, #FFD54F, #e74c3c, #FFD54F);
+
+}
+
+.btn2 {
+    background-image: linear-gradient(to left, #42A5F5, #009688, #42A5F5);
+}
+
+.btn3 {
+    background-image: linear-gradient(to left, #7CB342, #26A69A, #7CB342);
+}
+
+.btn4 {
+    background-image: linear-gradient(to left, #DCE775, #34495e, #DCE775);
+}
